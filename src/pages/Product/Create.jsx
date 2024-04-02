@@ -51,18 +51,9 @@ const Create = () => {
         />
       </div>
       <div className="">
-        {/* <div className="border-b border-stroke p-5   bg-white dark:border-strokedark flex justify-between">
-          <h3 className="font-medium text-black dark:text-white">
-          Create New
-          </h3>
-          <BackButton to={CONFIG.slug} />
-        </div> */}
+
         <div className="mt-5">
-          <MyForm
-            initialValues={initialValues}
-            onSubmit={onSubmit}
-            action={'Create'}
-          />
+          wwerwerjlkjlkj
         </div>
       </div>
     </>
