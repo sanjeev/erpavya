@@ -38,6 +38,7 @@
     "react-apexcharts": "^1.4.1",
     "react-cookie": "^6.1.0",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.47.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
