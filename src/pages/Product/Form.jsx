@@ -11,7 +11,7 @@ import { Field, Formik, Form } from "formik";
 import * as Yup from "yup";
 import { get } from "../../helpers/api";
 import CONFIG from "./const";
-import { TagsInput } from "react-tag-input-component";
+
 import ProductVariableForm from "./product-variable-form";
 const MyForm = ({ initialValues, onSubmit, action }) => {
   const [categories, setCategories] = useState([]);
