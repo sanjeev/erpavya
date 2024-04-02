@@ -21,6 +21,7 @@
     "apexcharts": "^3.41.0",
     "axios": "^1.5.0",
     "boostrap": "^2.0.0",
+    "caniuse-lite": "^1.0.30001605",
     "formik": "^2.4.3",
     "headlessui": "^0.0.0",
     "jsvectormap": "^1.5.3",
