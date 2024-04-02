@@ -8,39 +8,8 @@ import React from 'react';
 import CONFIG from './const';
 
 const Create = () => {
-  const navigate = useNavigate();
-  const initialValues = {
-    gallery_images: [],
-    featured_images: '',
-    categories: [],
-    tags: [],
-    name: '',
-    slug: '',
-    price: '',
-    short_description: '',
-    long_description: '',
-    status: 'Active',
-    excerpt: '',
-    body: '',
-    notes: '',
-    product_type: '',
-    sale_price: '',
-    quantity: '',
-    sku: '',
-    width: '',
-    height: '',
-    length: '',
-    seo_title: '',
-    seo_keywords: '',
-    seo_description: '',
-  };
-  const onSubmit = async (values, { setSubmitting }) => {
-    console.log(values);
-    // const response = await post(CONFIG.api + 'create', values); // Make a POST request
-    // toast.success(response.message);
-    // navigate(CONFIG.slug);
-    // setSubmitting(false);
-  };
+
+
 
   return (
     <>
