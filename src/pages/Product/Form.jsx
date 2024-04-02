@@ -10,7 +10,6 @@ import InputSelectisMulti from "../../components/form/InputSelectisMulti";
 import { Field, Formik, Form } from "formik";
 import * as Yup from "yup";
 import { get } from "../../helpers/api";
-import CONFIG from "./const";
 
 import ProductVariableForm from "./product-variable-form";
 const MyForm = ({ initialValues, onSubmit, action }) => {
