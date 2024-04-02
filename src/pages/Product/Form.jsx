@@ -376,11 +376,11 @@ const MyForm = ({ initialValues, onSubmit, action }) => {
                 </p>
               </div>
               <div className="bg-white p-5  lg:col-span-2 rounded-lg">
-                <ProductVariableForm
+                {/* <ProductVariableForm
                   onChangevariable={(e) => {
                     formik.setFieldValue("product_variable", e);
                   }}
-                />
+                /> */}
               </div>
             </div>
           </div>
