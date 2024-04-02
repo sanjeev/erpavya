@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SubmitButton from "../../components/common/SubmitButton";
 import InputText from "../../components/form/InputText";
-import InputNumber from "../../components/form/InputNumber";
 import Editor from "../../components/form/Editor";
 import TextArea from "../../components/form/TextArea";
 import InputFile from "../../components/form/InputFile";
