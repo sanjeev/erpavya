@@ -7,7 +7,7 @@ import TextArea from "../../components/form/TextArea";
 import InputFile from "../../components/form/InputFile";
 import MultipleFileUploadField from "../../components/form/Multiplefileuploadformik";
 import InputSelectisMulti from "../../components/form/InputSelectisMulti";
-import { Field, Formik, Form } from "formik";
+import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { get } from "../../helpers/api";
 
