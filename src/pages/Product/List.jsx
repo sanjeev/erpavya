@@ -27,7 +27,7 @@ const List = () => {
     const response = await remove(CONFIG.api + 'delete/'+recordId);
     const updatedData = data.filter((item) => item._id !== recordId);
     setData(updatedData);
-    
+
     toast.success(response.message);
   };
 
@@ -36,22 +36,7 @@ const List = () => {
   }
   return (
     <>
-      <Breadcrumb pageName={CONFIG.module} elements={CONFIG.breadcrumbs.list} />
-
-      <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
-        <div className="border-b border-stroke p-5 dark:border-strokedark flex justify-between">
-          <h3 className="font-medium text-black dark:text-white">
-          List ({data.length})
-          </h3>
-          <div className='flex justify-between gap-1'>
-            <CreateButton to={CONFIG.action.create} />
-            <DeletedButton to={CONFIG.action.deleted} />
-          </div>
-        </div>
-        <div>
-          <Table data={data} onDelete={deleteRecord} />
-        </div>
-      </div>
+   dsflksdjfklsjdflkjsdflkj
 
     </>
   );
